@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Üye Ol";
+}
+
+
+<section id="text-part">
+    <h1 id="text-h1">MECLİS ÜYELİĞİ ÜYELİK KAYIT FORMU</h1>
+    <p id="text-p">Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.</p>
+</section>
+
+<section id="form-part" style="padding: 50px 0 200px 0;">
+    <form class="container" method="post" onsubmit="return (TCNOKontrol() & passwordcontrol())" asp-action="Post5">
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="AdSoyad" class="form-label formtext1">AD - SOYAD</label>
+            </div>
+            <div class="col-lg-5 col-12">
+
+                <input type="text" class="form-control" id="AdSoyad" placeholder="" name="AdSoyad" required>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="TcNo" class="form-label formtext1">TC KİMLİK NUMARASI</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <input type="text" class="form-control" id="TcNo" placeholder="" name="TcNo">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="DogumTarih" class="form-label formtext1">DOĞUM TARİHİ</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <input type="date" class="form-control" id="DogumTarih" placeholder="" name="DogumTarih" required>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="Telefon" class="form-label formtext1">TELEFON</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <input type="text" class="form-control" id="Telefon" placeholder="5xxxxxxxxx" pattern="^5(0[5-7]|[3-5]\d) ?\d{3} ?\d{4}$" name="Telefon" required>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="Sifre" class="form-label formtext1 ">ŞİFRE</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <div class="input-group">
+                    <input type="password" class="form-control border-end-0" id="Sifre" name="Sifre">
+                    <i class="fa fa-eye input-group-text bg-white" style="color: #E8AD15;" id="eye"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="sifre1" class="form-label formtext1 ">TEKRAR ŞİFRE</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <div class="input-group">
+                    <input type="password" class="form-control border-end-0" id="sifre1" placeholder="" name="sifre1">
+                    <i class="fa fa-eye input-group-text bg-white" style="color: #E8AD15;" id="eye1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 displaynone ">
+            </div>
+            <div class="col-lg-5 col-12 form-check">
+                <input class="form-check-input form-check-input-lg" type="checkbox" id="check1" name="option1" value="kvkk" required>
+                <label class="form-check-label formtext1" style="color: #333333;">Üyelik Sözleşmesini ve KVKK Aydınlatma metnini okudum, kabul ediyorum.</label>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-5 col-12">
+                <p class="formtext1">*Üyeliğiniz yetkililer tarafından onaylandıktan sonra aktif edilecektir.</p>
+            </div>
+        </div>
+        @if (TempData.ContainsKey("SuccessMessage"))
+        {
+            <div class="row mb-5">
+                <div class="col-lg-3 col-12 displaynone">
+                </div>
+                <div class="alert alert-success alert-dismissible fade show col-lg-5 col-12" role="alert">
+                    <strong>@TempData["SuccessMessage"]</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+        @if (TempData.ContainsKey("ErrorMessage"))
+        {
+            <div class="row mb-5">
+                <div class="col-lg-3 col-12 displaynone">
+                </div>
+                <div class="alert alert-warning alert-dismissible fade show col-lg-5 col-12" role="alert">
+                    <strong>@TempData["ErrorMessage"]</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-5 col-12">
+                <button type="submit" class="btn btn-custom btn-lg">KAYDET</button>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-8 col-12">
+                <p class="formtext1" style="color: #FF0000;">Tüm bu üyelik için kurtarma ve kayıt olma sürecindeki işlemlerde SMS doğrulama kullanılabilir. Üyelik aktif edildikten sonra Üyelere özel bir mail adresi oluşturulacaktır.</p>
+
+            </div>
+        </div>
+    </form>
+</section>

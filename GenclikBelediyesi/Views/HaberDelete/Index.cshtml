@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+    ViewBag.Title = "Haber Delete";
+}
+
+@using GenclikBelediyesi.Models.Database
+@model TblHaberler
+
+<form method="post" class="container-fluid" asp-action="Post11">
+    <input type="text" class="form-control" name="currentID" value="@Model.HaberId" style="display:none !important;" readonly required />
+
+    <div class="row mb-3">
+        <div class="col-12 text-center">
+            <h3>Emin misiniz?</h3>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Delete</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/HaberYonet/Index" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

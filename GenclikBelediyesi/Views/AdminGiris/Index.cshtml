@@ -1,0 +1,84 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>Admin Giriş Yap</title>
+</head>
+<body style="height:100vh;display:flex;flex-direction:column;justify-content:center">
+
+
+    <div class="admingirispart">
+        <form class="container bg-black rounded text-white p-5" method="post" asp-action="Post6">
+
+            <div class="row mb-3">
+                <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                    <label for="adminid" class="form-label ">KULLANICI ADI</label>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <input type="text" class="form-control" id="adminid" name="adminid">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                    <label for="Sifre3" class="form-label">ŞİFRE</label>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div class="input-group">
+                        <input type="password" class="form-control border-end-0" id="Sifre3" name="Sifre3">
+                        <i class="fa fa-eye input-group-text bg-white" style="color: black;" id="eye3"></i>
+                    </div>
+                </div>
+            </div>
+            @if (TempData.ContainsKey("ErrorMessage"))
+            {
+                <div class="row mb-3">
+                    <div class="alert alert-light alert-dismissible fade show col-12" role="alert">
+                        <strong>@TempData["ErrorMessage"]</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+            }
+            <div class="row mb-3 ">
+                <div class="col-lg-3 displaynone">
+                </div>
+                <div class="col-lg-5 col-12 toCenter d-flex align-items-center ">
+                    <button style="width:100%" type="submit" class="btn btn-light ">Giriş Yap</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 displaynone">
+                </div>
+                <div class="col-lg-5 col-12 toCenter d-flex align-items-center ">
+                    <a href="/" style="width:100%" class="btn btn-light ">Anasayfaya Dön</a>
+                </div>
+            </div>
+
+        </form>
+
+
+    </div>
+    
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const passwordInput = document.querySelector("#Sifre3")
+        const eye = document.querySelector("#eye3")
+
+        eye.addEventListener("click", function () {
+            this.classList.toggle("fa-eye-slash")
+            const type = passwordInput.getAttribute("type") === "password" ? "text" : "password"
+            passwordInput.setAttribute("type", type)
+        })
+    </script>
+</body>
+</html>

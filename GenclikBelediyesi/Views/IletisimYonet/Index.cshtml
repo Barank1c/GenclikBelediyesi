@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+    ViewBag.Title = "İletişim Yönet";
+    string search = TempData["search"].ToString();
+}
+
+@using GenclikBelediyesi.Models.Database
+@using X.PagedList;
+@using X.PagedList.Mvc.Core
+@model PagedList<Tbiletisim>
+
+
+<form class="container">
+    <div class="row">
+        <div class="d-flex col-12">
+            <input class="form-control bg-white me-1" type="search" placeholder="Ara" value="@search" aria-label="Search" name="search">
+            <button type="submit" class="btn btn-primary ">GİT</button>
+        </div>
+    </div>
+</form>
+
+<div class="p-5 overflow-auto">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Mail</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.iletisimAdiniz</td>
+                    <td>@item.iletisimSoyadiniz</td>
+                    <td>@item.iletisimMailiniz</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm mb-1 d-block" href="/IletisimEdit/Index?id=@item.TbiletisimId">Reply</a>
+                        <a class="btn btn-primary btn-sm d-block" href="/IletisimDelete/Index?id=@item.TbiletisimId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+<div class="col-12 pagination d-flex justify-content-center my-3">
+    @Html.PagedListPager(Model , page => Url.Action("Index", new { page,search}))
+</div>

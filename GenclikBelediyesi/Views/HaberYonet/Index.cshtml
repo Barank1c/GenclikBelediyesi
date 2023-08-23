@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+    ViewBag.Title = "Haber Ekle/Çıkar";
+    string search = TempData["search"].ToString();
+}
+
+@using GenclikBelediyesi.Models.Database
+@using X.PagedList;
+@using X.PagedList.Mvc.Core
+@model PagedList<TblHaberler>
+
+<div class="container">
+    <div class="row">
+        <a class="btn btn-primary col-lg-6 col-12 mb-2 mb-lg-0" href="/HaberEkle/Index">Haber Ekle</a>
+        <form class="col-lg-6 col-12">
+            <div class="d-flex ">
+                <input class="form-control bg-white me-1" type="search" placeholder="Ara" value="@search" aria-label="Search" name="search">
+                <button type="submit" class="btn btn-primary ">GİT</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="p-5 overflow-auto">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>HaberId</th>
+                <th>Baslik</th>
+                <th>Aktif</th>
+                <th>BasTarih</th>
+                <th>AdminId</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.HaberId</td>
+                    <td>@item.Baslik</td>
+                    <td>@item.Aktif</td>
+                    <td>@item.BasTarih</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm mb-1 d-block" href="/HaberEdit/Index?id=@item.HaberId">Edit</a>
+                        <a class="btn btn-primary btn-sm d-block" href="/HaberDelete/Index?id=@item.HaberId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+<div class="col-12 pagination d-flex justify-content-center my-3">
+    @Html.PagedListPager(Model , page => Url.Action("Index", new { page,search}))
+</div>
+

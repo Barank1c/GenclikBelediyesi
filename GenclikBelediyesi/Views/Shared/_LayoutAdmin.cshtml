@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>@ViewBag.Title</title>
+</head>
+<body style="position: relative;min-height: 100vh;">
+    <header class="d-flex justify-content-end p-4 iletisimyonetden" style="height:100px;width:100%;background-color:black;color:black;">
+
+        <form asp-controller="AdminPanel" asp-action="Panel">
+            <button class="btn btn-light navbar-text" type="submit">Admin Panel</button>
+        </form>
+        <form asp-controller="AdminPanel" asp-action="Mainpage">
+            <button class="btn btn-light navbar-text ms-3" type="submit">Anasayfaya Dön</button>
+        </form>
+        <form asp-controller="AdminGiris" asp-action="Logout">
+            <button class="btn btn-light navbar-text ms-3" type="submit">Çıkış Yap</button>
+        </form>
+    </header>
+    <main class="mt-5">
+        @RenderBody()
+    </main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+    ViewBag.Title = "Haber Edit";
+}
+
+@using GenclikBelediyesi.Models.Database
+@model Tbiletisim
+
+<form class="container" method="post" asp-action="Post7">
+    @if (TempData.ContainsKey("ErrorMessage"))
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>@TempData["ErrorMessage"]</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <input type="text" class="form-control" name="currentID" value="@Model.TbiletisimId" style="display:none !important;" readonly required />
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Ad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="iletisimAdiniz" value="@Model.iletisimAdiniz" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Soyad</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="iletisimSoyadiniz" value="@Model.iletisimSoyadiniz" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">E-Posta</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="iletisimMailiniz" value="@Model.iletisimMailiniz" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Mesaj</label>
+        <div class="col-sm-6">
+            <textarea rows="3" class="form-control" name="iletisimMesaj" required>@Model.iletisimMesaj</textarea>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Mesaj</label>
+        <div class="col-sm-6">
+            <textarea rows="3" class="form-control" name="reply" required></textarea>
+        </div>
+    </div>
+
+    @if (TempData.ContainsKey("SuccessMessage"))
+    {
+        <div class="alert alert-success alert-dismissible fade show mb-3" role="alert">
+            <strong>@TempData["SuccessMessage"]</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="offset-sm-3 col-sm-3 d-grid mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid mb-3">
+            <a class="btn btn-outline-primary" href="/IletisimYonet/Index" role="button">Cancel</a>
+        </div>
+    </div>
+
+
+</form>

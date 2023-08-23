@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Haberler Detay";
+}
+
+@using GenclikBelediyesi.Models.Database;
+@model List<TblHaberler>;
+
+@{
+    int index = (int)ViewData["index"];
+    int indexprev = index - 1;
+    int indexnext = index + 1;
+}
+<section id="text-section" style="margin-bottom: 70px;">
+    <h1 class="text-h12" style="text-align: center;margin: 60px 0;">@Model[index].Baslik</h1>
+    <p class="text-p2 text-p12" style="color: black;margin-bottom: 30px;font-weight: 600;">@Model[index].Icerik</p>
+    <p class="text-p2 text-p12">@Model[index].Icerik1</p>
+    <p class="text-p2 text-p12">@Model[index].Icerik2</p>
+
+</section>
+<section id="images">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 mb-2  d-flex justify-content-center">
+                <img src=@Model[index].Foto1 alt="Haber 1" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2 d-flex justify-content-center">
+                <img src=@Model[index].Foto2 alt="Haber 2" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2 d-flex justify-content-center">
+                <img src=@Model[index].Foto3 alt="Haber 3" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2 d-flex justify-content-center">
+                <img src=@Model[index].Foto4 alt="Haber 4" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2  d-flex justify-content-center">
+                <img src=@Model[index].Foto5 alt="Haber 5" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2 d-flex justify-content-center">
+                <img src=@Model[index].Foto6 alt="Haber 6" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2 d-flex justify-content-center">
+                <img src=@Model[index].Foto7 alt="Haber 7" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-2 d-flex justify-content-center">
+                <img src=@Model[index].Foto8 alt="Haber 8" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 col-12 d-flex align-items-center centered">
+                @if (indexprev != -1)
+                {
+                    <a href="/HaberlerDetay/Index?id=@Model[indexprev].HaberId" id="prev" class="btn btn-custom2 text-h12">&lt;</a>
+                    <label for="prev" class="text-h12 " style="margin-left: 10px;">Önceki Haber</label>
+                }
+
+            </div>
+            <div class="col-lg-6 col-12 d-flex align-items-center justify-content-end centered">
+
+                @if (indexnext != Model.Count)
+                {
+                    <label for="next" class="text-h12 " style="margin-right: 10px;">Sonraki Haber</label>
+                    <a href="/HaberlerDetay/Index?id=@Model[indexnext].HaberId" id="next" class="btn btn-custom2 text-h12">&gt;</a>
+                }
+
+
+            </div>
+        </div>
+    </div>
+
+</section>

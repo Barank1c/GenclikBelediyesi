@@ -1,0 +1,137 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+    ViewBag.Title = "Haber Edit";
+}
+
+@using GenclikBelediyesi.Models.Database
+@model TblHaberler
+
+
+
+<form class="container" method="post" asp-action="Post10">
+
+
+    @if (TempData.ContainsKey("ErrorMessage"))
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>@TempData["ErrorMessage"]</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <input type="text" class="form-control" name="currentID" value="@Model.HaberId" style="display:none !important;" readonly required />
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Başlık</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Baslik" value="@Model.Baslik" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">İçerik</label>
+        <div class="col-sm-6">
+            <textarea rows="3" class="form-control" name="Icerik" required>@Model.Icerik</textarea>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">İçerik 1</label>
+        <div class="col-sm-6">
+            <textarea rows="3" class="form-control" name="Icerik1" required>@Model.Icerik1</textarea>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">İçerik 2</label>
+        <div class="col-sm-6">
+            <textarea rows="3" class="form-control" name="Icerik2" required>@Model.Icerik2</textarea>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Aktif</label>
+        <div class="col-sm-6">
+            @if (Model.Aktif)
+            {
+                <input type="number" class="form-control" name="Aktif" value="1" required />
+            }
+            else
+            {
+                <input type="number" class="form-control" name="Aktif" value="0" required />
+            }
+
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Başlama Tarihi</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="BasTarih" value="@Model.BasTarih" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Bitiş Tarihi</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="BitTarih" value="@Model.BitTarih" required />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto1</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto1" value="@Model.Foto1" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto2</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto2" value="@Model.Foto2" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto3</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto3" value="@Model.Foto3" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto4</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto4" value="@Model.Foto4" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto5</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto5" value="@Model.Foto5" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto6</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto6" value="@Model.Foto6" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto7</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto7" value="@Model.Foto7" required />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Foto8</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Foto8" value="@Model.Foto8" required />
+        </div>
+    </div>
+    @if (TempData.ContainsKey("SuccessMessage"))
+    {
+        <div class="alert alert-success alert-dismissible fade show mb-3" role="alert">
+            <strong>@TempData["SuccessMessage"]</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="offset-sm-3 col-sm-3 d-grid mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid mb-3">
+            <a class="btn btn-outline-primary" href="/HaberYonet/Index" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

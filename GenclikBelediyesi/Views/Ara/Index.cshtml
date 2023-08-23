@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Arama Sonuç";
+}
+
+@using GenclikBelediyesi.Controllers
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model AraModel;
+
+
+<div class="container">
+    @foreach (var i in Model.links)
+    {
+        <div class="row ">
+            <div class="col-12 my-3">
+                <a href="@i.link" class="aramayazi">@i.descp</a>
+            </div>
+        </div>
+    }
+
+</div>
+
+<div class="col-12 pagination d-flex justify-content-center my-3">
+    @Html.PagedListPager(Model.links , page => Url.Action("Index", new { page ,Model.Search}))
+</div>

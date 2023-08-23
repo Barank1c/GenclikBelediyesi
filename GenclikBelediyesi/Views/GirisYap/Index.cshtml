@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+@using GenclikBelediyesi.Models.Database
+
+@model TblUye;
+
+<section id="text-part">
+    <h1 id="text-h1">MECLİS ÜYELİĞİ ÜYELİK GİRİŞ FORMU</h1>
+    <p id="text-p">Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.</p>
+</section>
+
+<section id="form-part" style="padding: 50px 0 200px 0;">
+    <form class="container" method="post" asp-action="Post4">
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="TcNo" class="form-label formtext1">TC KİMLİK NUMARASI</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <input type="text" class="form-control" id="TcNo" placeholder="" name="TcNo">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 d-flex align-items-center toCenter">
+                <label for="Sifre" class="form-label formtext1 ">ŞİFRE</label>
+            </div>
+            <div class="col-lg-5 col-12">
+                <div class="input-group">
+                    <input type="password" class="form-control border-end-0" id="Sifre" placeholder="" name="Sifre">
+                    <i class="fa fa-eye input-group-text bg-white" style="color: #E8AD15;" id="eye"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-5 col-12 d-flex justify-content-end">
+                <a href="#" id="sifre-unut">Şifremi Unuttum</a>
+            </div>
+        </div>
+        @if (TempData.ContainsKey("ErrorMessage"))
+        {
+            <div class="row mb-3">
+                <div class="col-lg-3 col-12 displaynone">
+                </div>
+                <div class="alert alert-warning alert-dismissible fade show col-lg-5 col-12" role="alert">
+                    <strong>@TempData["ErrorMessage"]</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+        <div class="row mb-3">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-5 col-12">
+                <button type="submit" class="btn btn-custom4 btn-lg">GİRİŞ YAP</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-5 col-12 d-flex justify-content-center">
+                <p class="formtext1" style="font-weight: 500;color: black;">veya</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-12 displaynone">
+            </div>
+            <div class="col-lg-5 col-12">
+                <a href="#" class="btn btn-custom1 btn-lg">KAYIT OL</a>
+            </div>
+        </div>
+
+    </form>
+</section>

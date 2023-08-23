@@ -1,0 +1,97 @@
+﻿@{
+	ViewData["Title"] = "Tüm Haberler";
+}
+
+@using GenclikBelediyesi.Controllers;
+@using GenclikBelediyesi.Models.Database;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model HaberlerModel;
+
+<section id="filtre">
+	<form class="container">
+		<div class="row">
+			<div class="col-12 col-lg-3 marginadder">
+				<select class="form-select select-text" id="monthOfSelect" name="monthOfSelect">
+					<option value="1">OCAK</option>
+					<option value="2">ŞUBAT</option>
+					<option value="3">MART</option>
+					<option value="4">NİSAN</option>
+					<option value="5">MAYIS</option>
+					<option value="6">HAZİRAN</option>
+					<option value="7">TEMMUZ</option>
+					<option value="8">AĞUSTOS</option>
+					<option value="9">EYLÜL</option>
+					<option value="10">EKİM</option>
+					<option value="11">KASIM</option>
+					<option value="12">ARALIK</option>
+				</select>
+			</div>
+			<div class="col-12 col-lg-3 marginadder">
+				<select class="form-select select-text" id="yearOfSelect" name="yearOfSelect">
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+				</select>
+			</div>
+			<div class="col-12 col-lg-6 d-flex">
+				<input class="form-control me-2 bg-white select-text" type="search" placeholder="Aranacak Kelime" value="@Model.search" aria-label="Search" id="search" name="search">
+				<button type="submit" class="btn btn-custom3 select-text">GİT</button>
+			</div>
+
+		</div>
+
+
+	</form>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+
+
+			@foreach (var item in Model.list)
+			{
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="border border-secondary border-1 rounded mb-5">
+						<img src=@item.Foto1 alt="Haber" style="width:100%">
+						<div class="haber-bosluk" style="padding: 5px;">
+							<p class="tarih2" style="color:#E8AD15">@item.BasTarih.ToShortDateString()</p>
+
+							<a href="/HaberlerDetay/Index?id=@item.HaberId" class="etkinlik-kalin" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">@item.Baslik</a>
+							<p class="etkinlik-metin" style="white-space: normal;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">@item.Icerik</p>
+							<a href="/HaberlerDetay/Index?id=@item.HaberId" class="devami">DEVAMI</a>
+						</div>
+					</div>
+				</div>
+			}
+
+
+			<div class="col-12 pagination d-flex justify-content-center">
+				@Html.PagedListPager(Model.list, page => Url.Action("Index", new { page , Model.search }))
+			</div>
+
+
+		</div>
+	</div>
+</section>
+<script>
+	var ay = document.getElementById("monthOfSelect");
+	var secenekler1 = ay.getElementsByTagName("option");
+	for (var i = 0; i < secenekler1.length; i++) {
+		if (secenekler1[i].value == @Model.month) {
+			secenekler1[i].selected = true;
+			break;
+		}
+	}
+
+	var yil = document.getElementById("yearOfSelect");
+	var secenekler2 = yil.getElementsByTagName("option");
+	for (var i = 0; i < secenekler2.length; i++) {
+		if (secenekler2[i].value == @Model.year) {
+			secenekler2[i].selected = true;
+			break;
+		}
+	}
+
+
+</script>

@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "İletişim";
+}
+<section id="main-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="row mb-5"><h1 class="ilbil">İLETİŞİM BİLGİLERİ</h1></div>
+                <div class="row mb-5 displaynone"></div>
+                <h2 class="ilh2" style="margin-bottom: 40px !important;">Birim Adı</h2>
+                <h2 class="ilh2">Adres</h2>
+                <h3 class="ilh3">Lorem Ipsum , basım ve dizgi endüstrisinin</h3>
+                <h2 class="ilh2">Telefon</h2>
+                <h3 class="ilh3">0 232 293 49 92</h3>
+                <h2 class="ilh2">E-MAİL</h2>
+                <h3 class="ilh3" style="color: #EAAE19;">genclikbelediyesi@izmir.bel.tr</h3>
+
+
+            </div>
+            <div class="col-lg-6 col-12 p-0">
+                <div class="row mb-5 displaynone"><h1 class="ilbil"><br></h1></div>
+                <div class="row mb-5 "></div>
+                <img src="~/img/map.png" alt="Map" style="width: 100% !important;">
+
+            </div>
+        </div>
+    </div>
+
+    <form class="container border rounded p-3 mt-5" method="post" asp-action="Post3">
+        <div class="row">
+            <div class="col">
+                <h1 class="ilbil">İletişim</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 col-12">
+                <h2 class="ilh2">Adınız</h2>
+                <input type="text" class="form-control" id="iletisimAdiniz" name="iletisimAdiniz" required>
+            </div>
+            <div class="col-lg-6 col-12 mt-lg-0 mt-3">
+                <h2 class="ilh2">Soyadınız</h2>
+                <input type="text" class="form-control" id="iletisimSoyadiniz" name="iletisimSoyadiniz" required>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6 col-12">
+                <h2 class="ilh2">e-Posta</h2>
+                <input type="email" class="form-control" id="iletisimMailiniz" name="iletisimMailiniz" required>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <h2 class="ilh2">Mesaj</h2>
+                <textarea class="form-control" id="iletisimMesaj" name="iletisimMesaj" rows="3" required></textarea>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <input class="form-check-input" type="checkbox" value="kvkk2" id="iletisimKvkk" required>
+                <label class="form-check-label" for="iletisimKvkk">
+                    Kişisel Verilerin Korunması
+                </label>
+            </div>
+        </div>
+        @if (TempData.ContainsKey("SuccessMessage"))
+        {
+            <div class="row mt-3">
+                <div class="alert alert-success alert-dismissible fade show col" role="alert">
+                    <strong>@TempData["SuccessMessage"]</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+        @if (TempData.ContainsKey("ErrorMessage"))
+        {
+            <div class="row mt-3">
+                <div class="alert alert-warning alert-dismissible fade show col" role="alert">
+                    <strong>@TempData["ErrorMessage"]</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+        <div class="row mt-3">
+            <div class="col-12">
+                <button type="submit" class="btn btn-dark">Gönder</button>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+</section>

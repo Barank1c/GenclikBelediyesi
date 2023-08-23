@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/slick-theme.css">
+    <link rel="stylesheet" href="~/lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body style="position: relative;min-height: 100vh;">
+    <header class="container">
+        <div class="row">
+            <div class="col-lg-2 col pt-3">
+                <a class="logo d-flex justify-content-center align-items-center" href="/">logo</a>
+            </div>
+            <nav class="navbar navbar-expand-lg col-lg-10 col pt-3 pb-0">
+                <div class="container-fluid justify-content-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"><i class="fa fa-bars"></i></button>
+                    <div class=" navbar-collapse collapse  justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-xl-3">
+                                <a class="nav-link navbar-text" href="/Hakkimizda/Index">Hakkımızda</a>
+                            </li>
+
+                            <li class="nav-item px-xl-3 dropdown">
+                                <a class="nav-link dropdown-toggle navbar-text" role="button" data-bs-toggle="dropdown">Kurumsal</a>
+                                <ul class="dropdown-menu" id="dropdown-border">
+                                    <li><a class="dropdown-item navbar-text">Organizasyon Şeması</a></li>
+                                    <li><a class="dropdown-item navbar-text">Yönetim Kurulu</a></li>
+                                    <li><a class="dropdown-item navbar-text">Meclis Üyeleri</a></li>
+                                    <li><a class="dropdown-item navbar-text">Komisyonlar</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item px-xl-3"><a class="nav-link navbar-text">Meclis Çalışmaları</a></li>
+                            <li class="nav-item px-xl-3"><a class="nav-link navbar-text">Ortak Çalışmalar</a></li>
+                            <li class="nav-item px-xl-3"><a class="nav-link navbar-text" href="/Iletisim/Index">İletişim</a></li>
+                            
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle navbar-text mx-lg-2 sign" href="#" role="button"
+                                       data-bs-toggle="dropdown" style="margin-bottom: 8px !important;"><i class="fa fa-user" style="height:100%" ></i></a>
+                                    <ul class="dropdown-menu" style="border: 0; background-color: transparent;">
+                                        <li>
+                                            <form asp-controller="GirisYap" asp-action="Logout">
+                                                <button class="dropdown-item navbar-text signdrop" type="submit"  style="margin-bottom: 8px; background-color: white;">Çıkış Yap</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                            }
+                            else
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle navbar-text mx-lg-2 sign" href="#" role="button"
+                                       data-bs-toggle="dropdown" style="margin-bottom: 8px !important;">Giriş Yap</a>
+                                    <ul class="dropdown-menu" style="border: 0; background-color: transparent;">
+                                        <li>
+                                            <a class="dropdown-item navbar-text signdrop" href="/GirisYap/Index"
+                                               style="margin-bottom: 8px; background-color: white;">Giriş Yap</a>
+                                        </li>
+                                        <li><a class="dropdown-item navbar-text signdrop" style="margin-bottom: 8px;background-color: white;" href="/UyeOl/Index">Üye Ol</a></li>
+                                    </ul>
+                                </li>
+                                
+                            }
+                            
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbar-text sign" href="#" role="button"
+                                   data-bs-toggle="dropdown" style="margin-bottom: 8px !important;"><i class="fa fa-search"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-end" style="border: 0; background-color: transparent;">
+                                    <form class="d-flex" asp-action="Index" asp-controller="Ara">
+                                        <input class="form-control me-2 bg-white " type="search" placeholder="Search" aria-label="Search" name="search">
+                                        <button class="btn btn-outline-success bg-white " type="submit">></button>
+                                    </form>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div style="padding: 20px 0;">
+            <section id="image" style="width: 100%;">
+                <img src="~/img/banner.png" alt="Banner" style="width: 100%;">
+                <div id="social-medias">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </section>
+            @RenderBody()
+        </div>
+    </main>
+    
+    <div style="height: 100px;"></div>
+    <footer style="background-color: #E8AD15; position: absolute; bottom: 0; width: 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center align-items-center" id="footer-image">
+                    <img alt="ibb logo" src="~/img/logo.png" id="ibb-logo" >
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/slick-1.8.1/slick/slick.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+@using GenclikBelediyesi.Models.Database;
+@using static GenclikBelediyesi.Controllers.HomeController;
+@model HomeModel;
+
+<div class="squares">
+    <a id="square1" href="#">Meclis Üyesi Başvuru Formu<i class="fa fa-arrow-right"></i></a>
+    <a id="square2" href="#">Hukuk Kurulu Başvuru Formu<i class="fa fa-arrow-right"></i></a>
+    <a id="square3" href="#">Gönüllülük Başvuru Formu<i class="fa fa-arrow-right"></i></a>
+</div>
+<div class="news">
+    <ul class="nav nav-tabs border-0 justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="haberler" data-bs-toggle="tab" data-bs-target="#haberler1" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">
+                HABERLER
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="etkinlikler" data-bs-toggle="tab" data-bs-target="#etkinlikler1" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">
+                ETKİNLİKLER
+            </button>
+        </li>
+    </ul>
+</div>
+<p style="width: 60%;margin: 0 auto;text-align: center;margin-bottom: 20px;">Lorem Ipsum, bilinmeyen bir matbaacının bir tip numune kitabı yapmak için bir yazı galerisini alıp karıştırdığı 1500'lerden beri endüstrinin standart sahte metni olmuştur. </p>
+
+
+<section id="tarihler">
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="haberler1" role="tabpanel" aria-labelledby="Haberler">
+            <div class="multiple-items multiple-items1">
+
+                @for (int i = 0; i < Model.haberlerList.Count; i++)
+                {
+                    if (i == 9) break;
+                    <div class="border border-secondary border-1 rounded mb-5">
+                        <img src=@Model.haberlerList[i].Foto1 alt="Haber" style="width:100%">
+                        <div class="haber-bosluk" style="padding: 5px;">
+                            <p class="tarih2" style="color:#E8AD15">@Model.haberlerList[i].BasTarih.ToShortDateString()</p>
+
+                            <a href="/HaberlerDetay/Index?id=@Model.haberlerList[i].HaberId" class="etkinlik-kalin" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">@Model.haberlerList[i].Icerik</a>
+                            <p class="etkinlik-metin" style="white-space: normal;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">@Model.haberlerList[i].Icerik1</p>
+                            <a href="/HaberlerDetay/Index?id=@Model.haberlerList[i].HaberId" class="devami">DEVAMI</a>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <form class="text-center py-2" asp-action="Post1">
+                <button type="submit" asp-action="Post1" class="page-num" style="line-height: 40px !important;">Hepsini Gör</button>
+            </form>
+
+        </div>
+        <div class="tab-pane fade" id="etkinlikler1" role="tabpanel" aria-labelledby="Etkinlikler">
+            <div class="multiple-items multiple-items2">
+
+                @for (int i = 0; i < Model.etkinlikList.Count; i++)
+                {
+                    if (i == 9) break;
+                    <div class="border border-secondary border-1 rounded mb-5">
+                        <img src=@Model.etkinlikList[i].Foto1 alt="Etkinlik" style="width:100%">
+                        <div class="haber-bosluk" style="padding: 5px;">
+                            <p class="tarih2" style="color:#E8AD15">@Model.etkinlikList[i].BasTarih.ToShortDateString()</p>
+
+                            <a href="/EtkinlikDetay/Index?id=@Model.etkinlikList[i].EtkinlikId" class="etkinlik-kalin" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">@Model.etkinlikList[i].Icerik</a>
+                            <p class="etkinlik-metin" style="white-space: normal;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">@Model.etkinlikList[i].Icerik1</p>
+                            <a href="/EtkinlikDetay/Index?id=@Model.etkinlikList[i].EtkinlikId" class="devami">DEVAMI</a>
+                        </div>
+                    </div>
+
+                }
+
+            </div>
+
+            <form class="text-center py-2" asp-action="Post2">
+                <button type="submit" asp-action="Post2" class="page-num" style="line-height: 40px !important;">Hepsini Gör</button>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+</section>
