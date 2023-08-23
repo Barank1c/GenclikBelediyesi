@@ -1,8 +1,8 @@
-This is my first Full-Stack Project. I made this project using the designs given to me during my internship.
+This is my first Full-Stack Project(.NET 7). I made this project using the figma designs given to me during my internship.
 
 You can see the pages you can access from the controllers section. You just have to handle admin parts manually(They are not linked to homepage.).
 
-To review the project, first replace YOURSERVERNAME in the appsettings.json file with your sql server.
+To review the project, first open the solution with Visual Studio then replace YOURSERVERNAME in the appsettings.json file with your sql server.
 
 Then type the following codes in NuGet package manager:
 
