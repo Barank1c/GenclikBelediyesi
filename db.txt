@@ -1,0 +1,549 @@
+INSERT INTO TblAdmin(adminid,Sifre3) 
+VALUES(
+'admin',
+'asd'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-05-24 00:00:00',
+'2024-05-24 00:00:00',
+'2023-05-24 00:00:00'
+);
+
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-03-24 00:00:00',
+'2024-03-24 00:00:00',
+'2023-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Etkinlikler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-05-24 00:00:00',
+'2024-05-24 00:00:00',
+'2023-05-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'/img/haber1.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-05-24 00:00:00',
+'2024-05-24 00:00:00',
+'2023-05-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'/img/haber2.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2023-05-24 00:00:00',
+'2024-05-24 00:00:00',
+'2023-05-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'/img/haber3.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+0,
+'2022-03-24 00:00:00',
+'2023-03-24 00:00:00',
+'2022-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+0,
+'2021-03-24 00:00:00',
+'2022-03-24 00:00:00',
+'2021-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'/img/haber5.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2022-03-24 00:00:00',
+'2023-03-24 00:00:00',
+'2022-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'/img/haber6.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2022-03-24 00:00:00',
+'2023-03-24 00:00:00',
+'2022-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'/img/haber7.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2022-03-24 00:00:00',
+'2023-03-24 00:00:00',
+'2022-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'/img/haber8.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2022-03-24 00:00:00',
+'2023-03-24 00:00:00',
+'2022-03-24 00:00:00'
+);
+
+INSERT INTO Tbl_Haberler(Foto1,Foto2,Foto3,Foto4,Foto5,Foto6,Foto7,Foto8,Baslik,Icerik,Icerik1,Icerik2,Aktif,BasTarih,BitTarih,EklemeTarih)
+VALUES (
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'/img/haber4.png',
+'LOREM IPSUM',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız.',
+'İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+'Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.Lorem Ipsum pasajlarının pek çok varyasyonu mevcuttur, ancak bunların çoğu, biraz olsun inandırıcı görünmeyen mizah ya da rastgele sözcüklerle bir şekilde değişikliğe uğramıştır. Eğer bir Lorem Ipsum pasajı kullanacaksanız, metnin ortasında utandırıcı bir şey gizlenmediğinden emin olmalısınız. İnternetteki tüm Lorem Ipsum üreteçleri, önceden tanımlanmış parçaları gerektiği gibi tekrar etme eğilimindedir, bu da bunu İnternet"teki ilk gerçek oluşturucu yapar. Makul görünen Lorem Ipsum oluşturmak için bir avuç model cümle yapısıyla birleştirilmiş 200"den fazla Latince kelimeden oluşan bir sözlük kullanır. Oluşturulan Lorem Ipsum bu nedenle her zaman tekrardan, mizahtan veya karakteristik olmayan kelimelerden vs. muaftır.',
+1,
+'2022-05-24 00:00:00',
+'2023-05-24 00:00:00',
+'2022-05-24 00:00:00'
+);
+
+
+
